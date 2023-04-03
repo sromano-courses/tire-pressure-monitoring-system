@@ -1,5 +1,12 @@
 package it.sromano.tpms;
 
+/**
+ * How to use this class:
+ * Alarm alarm = new Alarm();
+ * alarm.check();
+ * alarm.isAlarmOn();
+ *
+ */
 public class Alarm {
 	
 	private final double lowPressureThreshold = 17;
